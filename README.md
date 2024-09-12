@@ -22,11 +22,11 @@
     
 
 ## Integrantes
-Rafael Calderon
-Marcelo Cabrejos Benites (2020)
-Renzo Tipula Cochachin (2020)
-Roberto Lopez Jauregui (2020)
-Arturo Aaron Silvera Pocco (20204965)
+1) Rafael Calderon
+2) Marcelo Cabrejos Benites (2020)
+3) Renzo Tipula Cochachin (2020)
+4) Roberto Lopez Jauregui (2020)
+5) Arturo Aaron Silvera Pocco (20204965)
 
 ## Introducción
 
