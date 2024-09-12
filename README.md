@@ -15,7 +15,7 @@
     - [DCU3](#DCU3)
     - [DCU4](#DCU4)
     
-- [Descripción de casos de uso (incluye mockups)](#Descripción-de-casos-de-uso-(incluye mockups))
+- [Descripción de casos de uso (incluye mockups)](#Descripción-de-casos-de-uso-(incluye-mockups))
     - [DCMUP1](#DCU1)
     - [DCMUP2](#DCU2)
     - [DCMUP3](#DCU3)
