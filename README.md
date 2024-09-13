@@ -138,13 +138,15 @@ Para probar las aplicaciones desarrolladas en Flutter, se puede utilizar un emul
 
 ### 7. Configuración y Preferencias del Usuario
 
+- **RF17:** El sistema debe permitir al usuario acceder a una barra lateral con diferentes opciones de configuración después de iniciar sesión. El usuario podrá desplegar esta barra lateral desde el ícono de menú y acceder a las opciones de "Añadir o actualizar rostro", "Términos y condiciones", "Notificaciones" y "Cerrar sesión".
+
 ![Settings](./assets/Settingsasd.png)
 
-- **RF17:** El sistema debe permitir al ciudadano activar o desactivar las notificaciones push desde la configuración.
+- **RF18:** El sistema debe permitir al ciudadano activar o desactivar las notificaciones push desde la configuración.
 
 ![Settings2](./assets/Settings%20notificacionesasd.png)
 
-- **RF18:** El sistema debe mostrar el nombre del usuario y permitirle agregar o actualizar su rostro para el inicio de sesión con identificación facial.
+- **RF19:** El sistema debe mostrar el nombre del usuario y permitirle agregar o actualizar su rostro para el inicio de sesión con identificación facial.
 
 ![Settings2.1](./assets/Identificador%20de%20rostro/validaciónasd.png)
 
@@ -152,11 +154,11 @@ Para probar las aplicaciones desarrolladas en Flutter, se puede utilizar un emul
 
 ![Settings2.4](./assets/Identificador%20de%20rostro/validación%20por%20emailasd.png) ![Settings2.5](./assets/Identificador%20de%20rostro/agregando%202asd.png) ![Settings2.1](./assets/Identificador%20de%20rostro/agregadoasd.png)
 
-- **RF19:** El sistema debe permitir al ciudadano visualizar y gestionar los "Términos y condiciones".
+- **RF20:** El sistema debe permitir al ciudadano visualizar y gestionar los "Términos y condiciones".
 
 ![Settings3](./assets/Settings%20terminos%20y%20condicionesasd.png)
 
-- **RF20:** El sistema debe permitir al ciudadano cerrar sesión desde la pantalla de ajustes.
+- **RF21:** El sistema debe permitir al ciudadano cerrar sesión desde la pantalla de ajustes.
 
 ![Settings](./assets/Settingsasd.png)
 
