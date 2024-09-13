@@ -85,6 +85,10 @@ Para asegurarte de que todo está configurado correctamente:
 - Compatible con las últimas versiones de Android y distintos tamaños de pantalla.
 - Adaptable a actualizaciones menores de APIs de Google (Maps, Facial Detection, Gmail).
 - Interfaz responsiva para múltiples dispositivos.
+
+## Diagrama relacional siu
+![Diagrama relacional](./assets/diagrama relacional.png)
+
 ## Diagrama de casos de uso 🛠️
 ![Diagrama de casos de uso](./assets/diagrama_casos_uso.png)
 
