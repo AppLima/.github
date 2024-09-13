@@ -56,7 +56,9 @@ Para probar las aplicaciones desarrolladas en Flutter, se puede utilizar un emul
 - Adaptable a actualizaciones menores de APIs de Google (Maps, Facial Detection, Gmail).
 - Interfaz responsiva para múltiples dispositivos.
 ## Diagrama de casos de uso 🛠️
+
 ![Diagrama de casos de uso](./assets/registrarseasd.png)
+
 ## Descripción de casos de uso 📝
 
 ### 1. Registro de Usuario
