@@ -102,7 +102,7 @@ Para probar las aplicaciones desarrolladas en Flutter, se puede utilizar un emul
  
 - **RF15:** El sistema debe permitir al administrador consultar los resultados de las encuestas.
 
-
+![Sondeos6](./assets/sondeo_mainasd.png) ![Sondeos7](./assets/sondeo_detalle_adminasd.png)
 
 ### 6. Acceso a Servicios de Emergencia
 - **RF16:** El sistema debe permitir al ciudadano visualizar una lista de servicios de emergencia disponibles, como SAMU, PNP, Bomberos y Central de Serenazgo.
