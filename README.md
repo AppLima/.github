@@ -86,8 +86,8 @@ Para asegurarte de que todo está configurado correctamente:
 - Adaptable a actualizaciones menores de APIs de Google (Maps, Facial Detection, Gmail).
 - Interfaz responsiva para múltiples dispositivos.
 
-## Diagrama relacional siu
-![Diagrama relacional](./assets/diagrama relacional.png)
+## Diagrama relacional
+![Diagrama relacional](./assets/diagrama%20relacional.png)
 
 ## Diagrama de casos de uso 🛠️
 ![Diagrama de casos de uso](./assets/diagrama_casos_uso.png)
