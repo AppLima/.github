@@ -172,9 +172,9 @@ Para asegurarte de que todo está configurado correctamente:
 
 - **RF19:** El sistema debe mostrar el nombre del usuario y permitirle agregar o actualizar su rostro para el inicio de sesión con identificación facial.
 
-![Settings2.1](./assets/Identificador%20de%20rostro/validaciónasd.png) ![Settings2.2](./assets/Identificador%20de%20rostro/agregando%201asd.png) ![Settings2.3](./assets/Identificador%20de%20rostro/actualizadoasd.png)
-
-![Settings2.4](./assets/Identificador%20de%20rostro/validación%20por%20emailasd.png) ![Settings2.5](./assets/Identificador%20de%20rostro/agregando%202asd.png) ![Settings2.1](./assets/Identificador%20de%20rostro/agregadoasd.png)
+![Settings2.1](./assets/Identificador%20de%20rostro/validaciónasd.png) ![Settings2.2](./assets/Identificador%20de%20rostro/agregando%201asd.png)
+![Settings2.3](./assets/Identificador%20de%20rostro/actualizadoasd.png) ![Settings2.4](./assets/Identificador%20de%20rostro/validación%20por%20emailasd.png)
+![Settings2.5](./assets/Identificador%20de%20rostro/agregando%202asd.png) ![Settings2.1](./assets/Identificador%20de%20rostro/agregadoasd.png)
 
 - **RF20:** El sistema debe permitir al ciudadano visualizar y gestionar los "Términos y condiciones".
 
