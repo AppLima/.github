@@ -93,8 +93,11 @@ Para probar las aplicaciones desarrolladas en Flutter, se puede utilizar un emul
 - **RF14:** El sistema debe permitir al administrador crear encuestas ingresando el título y el detalle o descripción del sondeo.
 - **RF15:** El sistema debe permitir al administrador consultar los resultados de las encuestas.
 
+
+
 ### 6. Acceso a Servicios de Emergencia
 - **RF16:** El sistema debe permitir al ciudadano visualizar una lista de servicios de emergencia disponibles, como SAMU, PNP, Bomberos y Central de Serenazgo.
+![SOS](./assets/SOSasd.png)
 
 ### 7. Configuración y Preferencias del Usuario
 - **RF17:** El sistema debe permitir al ciudadano activar o desactivar las notificaciones push desde la configuración.
@@ -102,7 +105,7 @@ Para probar las aplicaciones desarrolladas en Flutter, se puede utilizar un emul
 - **RF19:** El sistema debe permitir al ciudadano visualizar y gestionar los "Términos y condiciones".
 - **RF20:** El sistema debe permitir al ciudadano cerrar sesión desde la pantalla de ajustes.
 
-![Barra lateral de Ajustes](./mockups/settings_sidebar.PNG)
+![Settings](./assets/Settingsasd.png)
 
 
 ## Integrantes 👥
