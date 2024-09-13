@@ -59,8 +59,6 @@ Para probar las aplicaciones desarrolladas en Flutter, se puede utilizar un emul
 ![Diagrama de casos de uso](./mockups/d_casosdeuso.PNG)
 ## Descripción de casos de uso 📝
 
-## Requerimientos Funcionales (RF)
-
 ### 1. Registro de Usuario
 - **RF1:** El sistema debe permitir al ciudadano registrarse proporcionando correo, contraseña, DNI, nombre, apellidos y distrito actual.
 
@@ -165,8 +163,8 @@ Para probar las aplicaciones desarrolladas en Flutter, se puede utilizar un emul
 ![Settings](./assets/Settingsasd.png)
 
 ## Integrantes 👥
-Marcelo Cabrejos Benites (20200333)
-Renzo Tipula Cochachin (20202084)
-Roberto Lopez Jauregui (20201192)
-Arturo Aaron Silvera Pocco (20204965)
-Rafael Calderon (20200349)
+-Marcelo Cabrejos Benites (20200333)
+-Renzo Tipula Cochachin (20202084)
+-Roberto Lopez Jauregui (20201192)
+-Arturo Aaron Silvera Pocco (20204965)
+-Rafael Calderon (20200349)
