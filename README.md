@@ -1,5 +1,7 @@
 # InLima - Grupo 4 🚀
+La aplicación de InLima permite a los usuarios generar reportes de problemas en su entorno urbano, como incidentes, quejas y solicitudes de mejora. Los reportes incluyen descripciones detalladas, ubicaciones (gracias a la integración con la 🗺️API de Google Maps) y la posibilidad de adjuntar fotos como evidencia.
 
+Los administradores pueden gestionar estos reportes, atendiendo las quejas por distrito, modificando el estado de los incidentes, y notificando automáticamente a los usuarios sobre los cambios a través de la 📧 API de Gmail.
 # Guía de Desarrollo para la Aplicación **InLima**
 
 ### 🚀 Breve Descripción del Entorno de Desarrollo 💻
