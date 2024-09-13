@@ -1,9 +1,8 @@
 # InLima - Grupo 4 🚀
-## Entorno de desarrollo 💻
 
 # Guía de Desarrollo para la Aplicación **InLima**
 
-### 🚀 Breve Descripción del Entorno de Desarrollo
+### 🚀 Breve Descripción del Entorno de Desarrollo 💻
 
 El entorno de desarrollo para la aplicación **InLima** está construido sobre **Flutter**, una tecnología de desarrollo multiplataforma que permite crear aplicaciones móviles de alto rendimiento para **iOS** y **Android**. Además, **Android Studio** se utiliza para gestionar emuladores, entornos de desarrollo y los SDKs necesarios para la ejecución en dispositivos **Android**.
 
