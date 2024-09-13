@@ -72,11 +72,11 @@ Para asegurarte de que todo está configurado correctamente:
 
 ## SEGURIDAD
 #### RNF4 - Cifrado de Datos en Reposo y en Tránsito
-- **Prioridad:** Crítica
+- **Prioridad:** Alta
 - **Descripción:** Los datos deben estar cifrados tanto en reposo como en tránsito utilizando HTTPS y AES de 256 bits. Esto garantiza que la información sensible esté protegida frente a accesos no autorizados.
 
 #### RNF5 - Comunicación Segura entre Servicios
-- **Prioridad:** Crítica
+- **Prioridad:** Alta
 - **Descripción:** La comunicación entre todos los servicios debe realizarse mediante protocolos seguros como TLS/SSL, y cualquier archivo adjunto debe estar cifrado para asegurar su confidencialidad.
 
 
