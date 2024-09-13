@@ -89,14 +89,24 @@ Para probar las aplicaciones desarrolladas en Flutter, se puede utilizar un emul
 
 ### 5. Gestión de Encuestas y Votaciones
 - **RF12:** El sistema debe mostrar al ciudadano una lista de proyectos disponibles para votar, acompañados de imágenes y descripciones.
+
+![Sondeos](./assets/Sondeosasd.png)
+
 - **RF13:** El sistema debe permitir al ciudadano votar a favor o en contra de los proyectos mediante botones de "De acuerdo" o "Desacuerdo".
+
+![Sondeos2](./assets/Sondeos%202asd.png) ![Sondeos3](./assets/Sondeos%20Confirmacionasd.png)
+
 - **RF14:** El sistema debe permitir al administrador crear encuestas ingresando el título y el detalle o descripción del sondeo.
+
+![Sondeos4](./assets/Realizar%20sondeo_admasd.png) ![Sondeos5](./assets/Realizar%20sondeo%20-%20popupasd.png)
+ 
 - **RF15:** El sistema debe permitir al administrador consultar los resultados de las encuestas.
 
 
 
 ### 6. Acceso a Servicios de Emergencia
 - **RF16:** El sistema debe permitir al ciudadano visualizar una lista de servicios de emergencia disponibles, como SAMU, PNP, Bomberos y Central de Serenazgo.
+
 ![SOS](./assets/SOSasd.png)
 
 ### 7. Configuración y Preferencias del Usuario
