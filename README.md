@@ -1,60 +1,67 @@
-# DESCRIPCIÓN DE APPLIMA
-- [Integrantes](#integrantes)
-- [Introducción/Descripción](#Introducción/Descripción)
+# InLima - Grupo 4 🚀
+## Entorno de desarrollo 💻
+## Diagrama de despliegue 🌐
+![Diagrama de despliegue](./mockups/d_despliegue.PNG)
+## Requerimientos no funcionales 📋
+#### RNF1 - Rendimiento:
+- Las interfaces principales deben cargar en menos de 3 segundos con conexión 3G o superior.
+- Soporte para 100 usuarios simultáneos sin pérdida de rendimiento.
+- La latencia de comunicación con APIs externas (Google, Firebase, Cloud Storage) debe ser menor a 500 ms.
 
-- [Diagrama de despliegue](#Diagrama-de-despliegue])
+#### RNF2 - Seguridad:
+- Cifrado de datos en reposo y en tránsito (HTTPS, AES 256 bits).
+- Comunicación segura entre servicios (TLS/SSL) y almacenamiento cifrado de archivos adjuntos.
+- Cumplimiento con normativas locales de protección de datos (ej. Ley N° 29733 en Perú).
 
-- [Requerimientos no funcionales](#Requerimientos-no-funcionales)
-    - [RNF1](#RNF1)
-    - [RNF2](#RNF2)
-    - [RNF3](#RNF3)
-    
-- [Diagrama de casos de uso (requerimientos funcionales)](Diagrama-de-casos-de-uso-(requerimientos-funcionales))
-    - [DCU1](#DCU1)
-    - [DCU2](#DCU2)
-    - [DCU3](#DCU3)
-    - [DCU4](#DCU4)
-    
-- [Descripción de casos de uso (incluye mockups)](#Descripción-de-casos-de-uso-(incluye-mockups))
-    - [DCMUP1](#DCU1)
-    - [DCMUP2](#DCU2)
-    - [DCMUP3](#DCU3)
-    - [DCMUP4](#DCU4)
+#### RNF3 - Disponibilidad:
+- Disponibilidad del sistema al 99.5% del tiempo anual.
+- Tiempo de inactividad máximo de 24 horas por año.
+- Plan de contingencia para fallos en servicios externos (APIs, Firebase, Cloud Storage).
 
-## Integrantes
-1) Rafael Calderon
-2) Marcelo Cabrejos Benites (2020)
-3) Renzo Tipula Cochachin (2020)
-4) Roberto Lopez Jauregui (2020)
-5) Arturo Aaron Silvera Pocco (20204965)
+#### RNF4 - Escalabilidad:
+- Capacidad de escalar hasta 400 usuarios simultáneos.
+- Permitir agregar nuevas funcionalidades o integrar servicios externos sin reescritura significativa.
+- Manejo eficiente de mayores cargas de notificaciones y almacenamiento.
 
-## Introducción/Descripción
+#### RNF5 - Usabilidad:
+- Interfaz intuitiva y accesible (WCAG 2.1), con retroalimentación visual y auditiva.
+- Formularios y botones claros para usuarios de todos los niveles.
 
-APPLIMA es una app para poder subir tus quejas sobre dfsldjkflsodsñlk
+#### RNF6 - Compatibilidad:
+- Compatible con las últimas versiones de Android y distintos tamaños de pantalla.
+- Adaptable a actualizaciones menores de APIs de Google (Maps, Facial Detection, Gmail).
+- Interfaz responsiva para múltiples dispositivos.
+## Diagrama de casos de uso 🛠️
+![Diagrama de casos de uso](./mockups/d_casosdeuso.PNG)
+## Descripción de casos de uso 📝
 
-## Diagrama de despliegue
+### Registrarse (Ciudadano)
+#### Registrar cuenta
+El ciudadano podrá registrarse blablabla
 
+![Login](./mockups/login.PNG)
+#### Registrar datos biometricos
 
-## Requerimientos no funcionales
+### Iniciar sesión
+#### Iniciar sesión con credenciales
+#### Iniciar sesión con datos biometricos
 
-### RNF1
+### Realizar queja (Ciudadano)
+#### Seleccionar asunto
+#### Completar datos
 
-### RNF2
+### Gestionar quejas (Administrador)
+#### Consultar las quejas
+#### Modificar el estado de las quejas
 
-### RNF3
+### Responder encuesta (Ciudadano)
 
-## Diagrama de casos de uso (requerimientos funcionales)
+### Gestionar encuestas (Administrador)
+#### Crear encuesta
+#### Consultar resultados
 
-### DCU1
-### DCU2
-### DCU3
-### DCU4
+### Llamar a emergencias (Ciudadano)
 
+### Configurar notificaciones
 
-## Diagrama de casos de uso (requerimientos funcionales)
-
-### DCMUP1
-### DCMUP2
-### DCMUP3
-### DCMUP4
-
+## Integrantes 👥
