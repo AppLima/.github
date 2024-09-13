@@ -55,7 +55,8 @@ Para asegurarte de que todo está configurado correctamente:
    flutter doctor
 
 ## Diagrama de despliegue 🌐
-![Diagrama de despliegue](./assets/image.png).
+![Diagrama de despliegue](./assets/New%20folder/diagramadedespliegue.png)
+
 ## Requerimientos no funcionales 📋
 ## RENDIMIENTO
 #### RNF1 - Rendimiento de Carga de Interfaces
@@ -129,7 +130,7 @@ Para asegurarte de que todo está configurado correctamente:
 
 
 ## Diagrama relacional
-![Diagrama relacional](./assets/diagrama%20relacional.png)
+![Diagrama relacional](./assets/image.png)
 
 ## Diagrama de casos de uso 🛠️
 ![Diagrama de casos de uso](./assets/diagrama_casos_uso.png)
