@@ -37,9 +37,10 @@
 
 ### Registrarse (Ciudadano)
 #### Registrar cuenta
-El ciudadano podrá registrarse blablabla
+El usuario debe poder registrarse proporcionando correo, contraseña, DNI, nombre, apellidos y distrito actual
 
-![Login](./mockups/login.PNG)
+![iniciarsesion](/assets/iniciar%20sesionasd.png)
+![olvidaste tu contra](/assets/olvidaste%20tu%20contraseña%20confirmacionasd.png)
 #### Registrar datos biometricos
 
 ### Iniciar sesión
