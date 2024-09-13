@@ -56,16 +56,14 @@ Para probar las aplicaciones desarrolladas en Flutter, se puede utilizar un emul
 - Adaptable a actualizaciones menores de APIs de Google (Maps, Facial Detection, Gmail).
 - Interfaz responsiva para múltiples dispositivos.
 ## Diagrama de casos de uso 🛠️
-
-![Diagrama de casos de uso](./assets/registrarseasd.png)
+![Diagrama de casos de uso](./assets/diagrama_casos_uso.png)
 
 ## Descripción de casos de uso 📝
-
-![Diagrama de casos de uso](./assets/diagrama_casos_uso.png)
 
 ### 1. Registro de Usuario
 - **RF1:** El sistema debe permitir al ciudadano registrarse proporcionando correo, contraseña, DNI, nombre, apellidos y distrito actual.
 
+![Diagrama de casos de uso](./assets/registrarseasd.png)
 ![Diagrama de casos de uso](./assets/registrarse%20Confirmaciónasd.png)
 
 - **RF2:** El sistema debe permitir al ciudadano registrar o actualizar su rostro para utilizarlo como método de identificación.
