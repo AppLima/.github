@@ -39,13 +39,25 @@
 #### Registrar cuenta
 El usuario debe poder registrarse proporcionando correo, contraseña, DNI, nombre, apellidos y distrito actual
 
-![iniciarsesion](/assets/iniciar%20sesionasd.png)
-![olvidaste tu contra](/assets/olvidaste%20tu%20contraseña%20confirmacionasd.png)
+![registro](/assets/registrarseasd.png)
+![confirmareg](/assets/registrarse%20Confirmaciónasd.png)
 #### Registrar datos biometricos
+El sistema debe permitir al usuario registrar o actualizar su rostro para usarlo como método de identificación, si el rostro no está registrado, el sistema debe solicitar al usuario que lo registre.
 
+![agregando1](/assets/agregadoasd.png)
+![agregando2](/assets/agregando%202asd.png)
+![agregando3](/assets/validación%20por%20emailasd.png)
 ### Iniciar sesión
 #### Iniciar sesión con credenciales
+
+El sistema debe permitir al usuario iniciar sesión validando el correo y contraseña del usuario con la base de datos.
+![agregando4](/assets/iniciar%20sesionasd.png)
+![agregando5](/assets/Homeasd.png)
 #### Iniciar sesión con datos biometricos
+
+El sistema debe utilizar un identificador facial para permitir el inicio de sesión.
+![agregando4](/assets/Iniciar%20sesion%20-%20Identificadorasd.png)
+![agregando5](/assets/Iniciar%20sesion%20-%20Identificador%20Registroasd.png)
 
 ### Realizar queja (Ciudadano)
 #### Seleccionar asunto
