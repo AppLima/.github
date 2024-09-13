@@ -1,28 +1,53 @@
 # InLima - Grupo 4 🚀
 ## Entorno de desarrollo 💻
 
-### Breve descripción del entorno de desarrollo
+# Guía de Desarrollo para la Aplicación **InLima**
 
-El entorno de desarrollo utilizado para la aplicación **InLima** se basa en Flutter, una tecnología de desarrollo multiplataforma que permite crear aplicaciones móviles eficientes para iOS y Android. Además, se utiliza **Android Studio** para la gestión de emuladores y SDKs necesarios para el desarrollo en dispositivos Android.
+### 🚀 Breve Descripción del Entorno de Desarrollo
 
-### Descarga e instalación del SDK de Flutter
-Para instalar Flutter, se debe comenzar descargando el SDK desde la página oficial de Flutter, [flutter.dev](https://flutter.dev). Se debe buscar el archivo ZIP correspondiente al sistema operativo y descargarlo. Luego, es necesario descomprimir el archivo en una ubicación adecuada, asegurándose de que la ruta donde se coloque no contenga espacios ni caracteres especiales.
+El entorno de desarrollo para la aplicación **InLima** está construido sobre **Flutter**, una tecnología de desarrollo multiplataforma que permite crear aplicaciones móviles de alto rendimiento para **iOS** y **Android**. Además, **Android Studio** se utiliza para gestionar emuladores, entornos de desarrollo y los SDKs necesarios para la ejecución en dispositivos **Android**.
 
-### Configuración de variables de entorno
-Después de descomprimir el SDK, se deben configurar las variables de entorno para que el sistema reconozca los comandos de Flutter. Para ello, se deben abrir las propiedades del sistema accediendo a través del **Panel de control**, entrando a **Sistema y seguridad**, luego a **Sistema**, y finalmente seleccionando **Configuración avanzada del sistema**.
+> **Flutter**: [Sitio oficial de Flutter](https://flutter.dev)  
+> **Android Studio**: [Sitio oficial de Android Studio](https://developer.android.com/studio)
 
-En la ventana que aparece, se debe elegir la opción **Variables de entorno**. Dentro de la sección **Variables del sistema**, se busca la variable llamada **Path** y se hace clic en **Editar**. En la ventana de edición, se agrega una nueva entrada con la ruta completa a la carpeta `flutter/bin`, que se encuentra en el directorio donde se descomprimió el SDK. Una vez hecho esto, se deben guardar los cambios y cerrar todas las ventanas.
+---
 
-### Verificación de la instalación de Flutter
-Luego, se abre una ventana de **Símbolo del sistema** o **PowerShell** y se ejecuta el comando `flutter doctor`. Este comando verificará si Flutter está instalado correctamente y si todos los componentes necesarios están presentes. El comando también proporcionará una lista de posibles problemas o pasos adicionales que se deben resolver, como la instalación de **Android SDK** o herramientas de desarrollo faltantes.
+### 📥 Descarga e Instalación del SDK de Flutter
 
-### Instalación de Android Studio
-Dado que se desea desarrollar aplicaciones para Android, es necesario instalar **Android Studio**. Para ello, se debe visitar la [página oficial de Android Studio](https://developer.android.com/studio), descargar el instalador y seguir las instrucciones de instalación. Durante el proceso, es crucial asegurarse de seleccionar las opciones para instalar el **Android SDK** y el **Android Virtual Device (AVD)**.
+Para comenzar con Flutter, sigue estos pasos:
 
-Una vez que se haya completado la instalación de Android Studio, se debe abrir la aplicación y descargar cualquier paquete SDK adicional desde el **SDK Manager**.
+1. Visita el sitio oficial de **Flutter** en [flutter.dev](https://flutter.dev) y descarga el archivo ZIP del SDK correspondiente a tu sistema operativo.
+2. Descomprime el archivo en una ubicación sin espacios o caracteres especiales en la ruta.
+   - **Ejemplo de ruta recomendada**: `C:\flutter\` o `/usr/local/flutter/`.
 
-### Pruebas de la aplicación en emulador o dispositivo físico
-Para probar las aplicaciones desarrolladas en Flutter, se puede utilizar un emulador de Android o un dispositivo físico. En caso de preferir usar un dispositivo físico, se debe habilitar el **modo desarrollador** en el teléfono y activar la opción de **depuración USB**.
+⚠️ **Importante**: Evita descomprimir Flutter en directorios como `C:\Program Files\` debido a posibles restricciones de permisos.
+
+---
+
+### 🛠️ Configuración de Variables de Entorno
+
+Después de instalar Flutter, es necesario configurar las variables de entorno para que el sistema pueda reconocer los comandos de **Flutter**.
+
+1. Abre las **Propiedades del Sistema**:
+   - Ve a **Panel de control** > **Sistema y seguridad** > **Sistema** > **Configuración avanzada del sistema**.
+2. En la ventana emergente, selecciona **Variables de entorno**.
+3. Dentro de **Variables del sistema**, localiza la variable **Path** y selecciona **Editar**.
+4. Agrega una nueva entrada con la ruta completa hacia la carpeta `flutter/bin` (donde descomprimiste Flutter).
+   - **Ejemplo**: `C:\flutter\bin\` o `/usr/local/flutter/bin`.
+
+💡 **Consejo**: Asegúrate de que el comando `flutter` esté disponible en tu terminal ejecutando `flutter --version`.
+
+---
+
+### ✅ Verificación de la Instalación de Flutter
+
+Para asegurarte de que todo está configurado correctamente:
+
+1. Abre una ventana de **Símbolo del sistema**, **PowerShell** o una terminal en tu sistema operativo.
+2. Ejecuta el siguiente comando:
+
+   ```bash
+   flutter doctor
 
 ## Diagrama de despliegue 🌐
 ![Diagrama de despliegue](./assets/New%20folder/diagramadedespliegue.png)
