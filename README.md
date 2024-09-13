@@ -90,8 +90,8 @@ Para probar las aplicaciones desarrolladas en Flutter, se puede utilizar un emul
    - **Quejas/Sugerencias:** Permite generar y gestionar quejas.
    - **Sondeos:** Acceso a encuestas y votaciones.
    - **Historial:** Acceso al historial de quejas propio del usuario (en caso sea ciudadano).
-   ![Diagrama de casos de uso](/assets/Homeasd.png)
-   ![Diagrama de casos de uso](/assets/Home-adminasd.png)
+![Diagrama de casos de uso](/assets/Homeasd.png)
+![Diagrama de casos de uso](/assets/Home-adminasd.png)
 
 ### 4. Gestión de Quejas y Sugerencias
 - **RF7:** El sistema debe permitir al ciudadano seleccionar el tipo de queja o sugerencia desde una lista de opciones predefinidas o la opción 'Otros'.
@@ -110,7 +110,6 @@ Para probar las aplicaciones desarrolladas en Flutter, se puede utilizar un emul
 - **RF11:** El sistema debe permitir al administrador modificar el estado de las quejas.
 ![Diagrama de casos de uso](/assets/Editar%20queja3.1/Adminasd.png)
 ![Diagrama de casos de uso](/assets/Editar%20queja3.1/Adminasd.png)
-
 ![Sondeos](./assets/Sondeosasd.png)
 
 - **RF13:** El sistema debe permitir al ciudadano votar a favor o en contra de los proyectos mediante botones de "De acuerdo" o "Desacuerdo".
