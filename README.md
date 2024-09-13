@@ -25,7 +25,7 @@ Una vez que se haya completado la instalación de Android Studio, se debe abrir 
 Para probar las aplicaciones desarrolladas en Flutter, se puede utilizar un emulador de Android o un dispositivo físico. En caso de preferir usar un dispositivo físico, se debe habilitar el **modo desarrollador** en el teléfono y activar la opción de **depuración USB**.
 
 ## Diagrama de despliegue 🌐
-![Diagrama de despliegue](./mockups/d_despliegue.PNG)
+![Diagrama de despliegue](./assets/New%20folder/diagramadedespliegue.png)
 ## Requerimientos no funcionales 📋
 #### RNF1 - Rendimiento:
 - Las interfaces principales deben cargar en menos de 3 segundos con conexión 3G o superior.
