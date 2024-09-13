@@ -187,8 +187,13 @@ Para asegurarte de que todo está configurado correctamente:
 ![Settings](./assets/Settingsasd.png)
 
 ## Integrantes 👥
+
 - Marcelo Cabrejos Benites (20200333)
 - Renzo Tipula Cochachin (20202084)
 - Roberto Lopez Jauregui (20201192)
 - Arturo Aaron Silvera Pocco (20204965)
 - Rafael Calderon (20200349)
+
+## License
+
+This project is open-source and free to use under the [MIT License](LICENSE).
