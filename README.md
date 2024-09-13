@@ -57,7 +57,7 @@ Para asegurarte de que todo está configurado correctamente:
 ## Diagrama de despliegue 🌐
 ![Diagrama de despliegue](./assets/New%20folder/diagramadedespliegue.png)
 ## Requerimientos no funcionales 📋
--- RENDIMIENTO
+## RENDIMIENTO
 #### RNF1 - Rendimiento de Carga de Interfaces
 - **Prioridad:** Alta
 - **Descripción:** Las interfaces principales deben cargar en menos de 3 segundos cuando se accede a través de una conexión 3G o superior. Esto es esencial para garantizar una buena experiencia de usuario, especialmente en condiciones de red más lentas.
@@ -70,7 +70,7 @@ Para asegurarte de que todo está configurado correctamente:
 - **Prioridad:** Media
 - **Descripción:** La latencia de las comunicaciones con servicios externos como Google, Firebase o Cloud Storage debe ser inferior a 500 ms. Un tiempo de respuesta rápido es crucial para evitar demoras en el uso de la aplicación.
 
--- SEGURIDAD
+## SEGURIDAD
 #### RNF4 - Cifrado de Datos en Reposo y en Tránsito
 - **Prioridad:** Crítica
 - **Descripción:** Los datos deben estar cifrados tanto en reposo como en tránsito utilizando HTTPS y AES de 256 bits. Esto garantiza que la información sensible esté protegida frente a accesos no autorizados.
@@ -80,7 +80,7 @@ Para asegurarte de que todo está configurado correctamente:
 - **Descripción:** La comunicación entre todos los servicios debe realizarse mediante protocolos seguros como TLS/SSL, y cualquier archivo adjunto debe estar cifrado para asegurar su confidencialidad.
 
 
--- Disponibilidad
+## Disponibilidad
 
 #### RNF6 - Disponibilidad del Sistema
 - **Prioridad:** Alta
@@ -94,7 +94,7 @@ Para asegurarte de que todo está configurado correctamente:
 - **Prioridad:** Media
 - **Descripción:** Se debe contar con un plan de contingencia que garantice la continuidad del servicio en caso de fallos en servicios externos como APIs, Firebase o Cloud Storage, minimizando así el impacto en los usuarios.
 
--- Escalabilidad
+## Escalabilidad
 #### RNF9 - Escalabilidad de Usuarios Simultáneos
 - **Prioridad:** Alta
 - **Descripción:** El sistema debe ser capaz de escalar hasta 400 usuarios simultáneos sin comprometer el rendimiento, asegurando la capacidad de soportar el crecimiento en el número de usuarios.
@@ -107,7 +107,7 @@ Para asegurarte de que todo está configurado correctamente:
 - **Prioridad:** Media
 - **Descripción:** El sistema debe estar preparado para manejar un aumento en la cantidad de notificaciones y almacenamiento de datos sin afectar negativamente el rendimiento, especialmente en picos de uso.
 
--- Usabilidad
+## Usabilidad
 
 #### RNF12 - Usabilidad e Interfaz Intuitiva
 - **Prioridad:** Alta
@@ -117,7 +117,7 @@ Para asegurarte de que todo está configurado correctamente:
 - **Prioridad:** Media
 - **Descripción:** Los formularios y botones deben estar diseñados de manera clara y comprensible, con el fin de que los usuarios de todos los niveles puedan utilizarlos sin dificultades.
 
--- Compatibilidad
+## Compatibilidad
 
 #### RNF14 - Compatibilidad con Dispositivos y APIs
 - **Prioridad:** Media
