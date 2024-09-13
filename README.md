@@ -98,7 +98,7 @@ Para probar las aplicaciones desarrolladas en Flutter, se puede utilizar un emul
 
 - **RF14:** El sistema debe permitir al administrador crear encuestas ingresando el título y el detalle o descripción del sondeo.
 
-![Sondeos4](./assets/Realizar%20sondeo_admasd.png) ![Sondeos5](./assets/Realizar%20sondeo%20-%20popupasd.png)
+![Sondeos4](./assets/Realizar%20sondeo_admasd.png) ![Sondeos5](./assets/crear_sondeo_confirmasd.png)
  
 - **RF15:** El sistema debe permitir al administrador consultar los resultados de las encuestas.
 
