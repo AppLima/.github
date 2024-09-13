@@ -57,34 +57,76 @@ Para asegurarte de que todo está configurado correctamente:
 ## Diagrama de despliegue 🌐
 ![Diagrama de despliegue](./assets/New%20folder/diagramadedespliegue.png)
 ## Requerimientos no funcionales 📋
-#### RNF1 - Rendimiento:
-- Las interfaces principales deben cargar en menos de 3 segundos con conexión 3G o superior.
-- Soporte para 100 usuarios simultáneos sin pérdida de rendimiento.
-- La latencia de comunicación con APIs externas (Google, Firebase, Cloud Storage) debe ser menor a 500 ms.
+-- RENDIMIENTO
+#### RNF1 - Rendimiento de Carga de Interfaces
+- **Prioridad:** Alta
+- **Descripción:** Las interfaces principales deben cargar en menos de 3 segundos cuando se accede a través de una conexión 3G o superior. Esto es esencial para garantizar una buena experiencia de usuario, especialmente en condiciones de red más lentas.
 
-#### RNF2 - Seguridad:
-- Cifrado de datos en reposo y en tránsito (HTTPS, AES 256 bits).
-- Comunicación segura entre servicios (TLS/SSL) y almacenamiento cifrado de archivos adjuntos.
-- Cumplimiento con normativas locales de protección de datos (ej. Ley N° 29733 en Perú).
+#### RNF2 - Soporte de Usuarios Simultáneos
+- **Prioridad:** Alta
+- **Descripción:** El sistema debe ser capaz de manejar al menos 100 usuarios simultáneos sin experimentar pérdidas de rendimiento significativas. Esto asegura que el servicio se mantenga operativo y rápido bajo cargas normales.
 
-#### RNF3 - Disponibilidad:
-- Disponibilidad del sistema al 99.5% del tiempo anual.
-- Tiempo de inactividad máximo de 24 horas por año.
-- Plan de contingencia para fallos en servicios externos (APIs, Firebase, Cloud Storage).
+#### RNF3 - Latencia de Comunicación con APIs Externas
+- **Prioridad:** Media
+- **Descripción:** La latencia de las comunicaciones con servicios externos como Google, Firebase o Cloud Storage debe ser inferior a 500 ms. Un tiempo de respuesta rápido es crucial para evitar demoras en el uso de la aplicación.
 
-#### RNF4 - Escalabilidad:
-- Capacidad de escalar hasta 400 usuarios simultáneos.
-- Permitir agregar nuevas funcionalidades o integrar servicios externos sin reescritura significativa.
-- Manejo eficiente de mayores cargas de notificaciones y almacenamiento.
+-- SEGURIDAD
+#### RNF4 - Cifrado de Datos en Reposo y en Tránsito
+- **Prioridad:** Crítica
+- **Descripción:** Los datos deben estar cifrados tanto en reposo como en tránsito utilizando HTTPS y AES de 256 bits. Esto garantiza que la información sensible esté protegida frente a accesos no autorizados.
 
-#### RNF5 - Usabilidad:
-- Interfaz intuitiva y accesible (WCAG 2.1), con retroalimentación visual y auditiva.
-- Formularios y botones claros para usuarios de todos los niveles.
+#### RNF5 - Comunicación Segura entre Servicios
+- **Prioridad:** Crítica
+- **Descripción:** La comunicación entre todos los servicios debe realizarse mediante protocolos seguros como TLS/SSL, y cualquier archivo adjunto debe estar cifrado para asegurar su confidencialidad.
 
-#### RNF6 - Compatibilidad:
-- Compatible con las últimas versiones de Android y distintos tamaños de pantalla.
-- Adaptable a actualizaciones menores de APIs de Google (Maps, Facial Detection, Gmail).
-- Interfaz responsiva para múltiples dispositivos.
+
+-- Disponibilidad
+
+#### RNF6 - Disponibilidad del Sistema
+- **Prioridad:** Alta
+- **Descripción:** El sistema debe tener una disponibilidad del 99.5% del tiempo anual, lo que significa que solo se permite un máximo de 24 horas de inactividad por año. Esto garantiza que el sistema esté disponible para los usuarios la mayor parte del tiempo.
+
+#### RNF7 - Tiempo Máximo de Inactividad Permitido
+- **Prioridad:** Media
+- **Descripción:** El tiempo máximo de inactividad permitido es de 24 horas por año. Esto asegura que los tiempos de mantenimiento o fallos no impacten gravemente la experiencia del usuario.
+
+#### RNF8 - Plan de Contingencia para Fallos Externos
+- **Prioridad:** Media
+- **Descripción:** Se debe contar con un plan de contingencia que garantice la continuidad del servicio en caso de fallos en servicios externos como APIs, Firebase o Cloud Storage, minimizando así el impacto en los usuarios.
+
+-- Escalabilidad
+#### RNF9 - Escalabilidad de Usuarios Simultáneos
+- **Prioridad:** Alta
+- **Descripción:** El sistema debe ser capaz de escalar hasta 400 usuarios simultáneos sin comprometer el rendimiento, asegurando la capacidad de soportar el crecimiento en el número de usuarios.
+
+#### RNF10 - Escalabilidad de Funcionalidades
+- **Prioridad:** Media
+- **Descripción:** El sistema debe permitir la integración de nuevas funcionalidades o servicios externos sin requerir una reescritura significativa del código, lo que garantiza una evolución continua del sistema sin grandes interrupciones.
+
+#### RNF11 - Manejo de Cargas Mayores de Notificaciones y Almacenamiento
+- **Prioridad:** Media
+- **Descripción:** El sistema debe estar preparado para manejar un aumento en la cantidad de notificaciones y almacenamiento de datos sin afectar negativamente el rendimiento, especialmente en picos de uso.
+
+-- Usabilidad
+
+#### RNF12 - Usabilidad e Interfaz Intuitiva
+- **Prioridad:** Alta
+- **Descripción:** La interfaz debe ser intuitiva y accesible, cumpliendo con las pautas WCAG 2.1, e incluir retroalimentación visual y auditiva para garantizar la mejor experiencia para todos los niveles de usuarios.
+
+#### RNF13 - Formularios y Botones Claros
+- **Prioridad:** Media
+- **Descripción:** Los formularios y botones deben estar diseñados de manera clara y comprensible, con el fin de que los usuarios de todos los niveles puedan utilizarlos sin dificultades.
+
+-- Compatibilidad
+
+#### RNF14 - Compatibilidad con Dispositivos y APIs
+- **Prioridad:** Media
+- **Descripción:** El sistema debe ser compatible con las últimas versiones de Android y adaptarse a distintos tamaños de pantalla, así como ser capaz de soportar actualizaciones menores de APIs de Google (Maps, Facial Detection, Gmail).
+
+#### RNF15 - Interfaz Responsiva
+- **Prioridad:** Media
+- **Descripción:** La interfaz debe ser completamente responsiva, adaptándose de manera efectiva a múltiples dispositivos, ya sean móviles, tabletas o computadoras, para asegurar una experiencia fluida en cualquier entorno.
+
 
 ## Diagrama relacional
 ![Diagrama relacional](./assets/diagrama%20relacional.png)
