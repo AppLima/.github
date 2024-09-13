@@ -109,26 +109,26 @@ Para probar las aplicaciones desarrolladas en Flutter, se puede utilizar un emul
 
 ![Diagrama de casos de uso](/assets/Quejas%203.1asd-1.png)
 
-- **RF11:** El sistema debe permitir al administrador modificar el estado de las quejas.
+- **RF10:** El sistema debe permitir al administrador modificar el estado de las quejas.
 
 ![Diagrama de casos de uso](/assets/Editar%20queja3.1/Adminasd.png)
 ![Diagrama de casos de uso](/assets/Editar%20queja3.1/Adminasd.png)
 ![Sondeos](./assets/Sondeosasd.png)
 
-- **RF12:** El sistema debe permitir al ciudadano votar a favor o en contra de los proyectos mediante botones de "De acuerdo" o "Desacuerdo".
+- **RF11:** El sistema debe permitir al ciudadano votar a favor o en contra de los proyectos mediante botones de "De acuerdo" o "Desacuerdo".
 
 ![Sondeos2](./assets/Sondeos%202asd.png) ![Sondeos3](./assets/Sondeos%20Confirmacionasd.png)
 
-- **RF13:** El sistema debe permitir al administrador crear encuestas ingresando el título y el detalle o descripción del sondeo.
+- **RF12:** El sistema debe permitir al administrador crear encuestas ingresando el título y el detalle o descripción del sondeo.
 
 ![Sondeos4](./assets/Realizar%20sondeo_admasd.png) ![Sondeos5](./assets/crear_sondeo_confirmasd.png)
  
-- **RF14:** El sistema debe permitir al administrador consultar los resultados de las encuestas.
+- **RF13:** El sistema debe permitir al administrador consultar los resultados de las encuestas.
 
 ![Sondeos6](./assets/sondeo_mainasd.png) ![Sondeos7](./assets/sondeo_detalle_adminasd.png)
 
 ### 6. Acceso a Servicios de Emergencia
-- **RF15:** El sistema debe permitir al ciudadano visualizar una lista de servicios de emergencia disponibles, como SAMU, PNP, Bomberos y Central de Serenazgo.
+- **RF14:** El sistema debe permitir al ciudadano visualizar una lista de servicios de emergencia disponibles, como SAMU, PNP, Bomberos y Central de Serenazgo.
 
 ![SOS](./assets/SOSasd.png)
 
@@ -136,11 +136,11 @@ Para probar las aplicaciones desarrolladas en Flutter, se puede utilizar un emul
 
 ![Settings](./assets/Settingsasd.png)
 
-- **RF16:** El sistema debe permitir al ciudadano activar o desactivar las notificaciones push desde la configuración.
+- **RF15:** El sistema debe permitir al ciudadano activar o desactivar las notificaciones push desde la configuración.
 
 ![Settings2](./assets/Settings%20notificacionesasd.png)
 
-- **RF17:** El sistema debe mostrar el nombre del usuario y permitirle agregar o actualizar su rostro para el inicio de sesión con identificación facial.
+- **RF16:** El sistema debe mostrar el nombre del usuario y permitirle agregar o actualizar su rostro para el inicio de sesión con identificación facial.
 
 ![Settings2.1](./assets/Identificador%20de%20rostro/validaciónasd.png)
 
@@ -148,11 +148,11 @@ Para probar las aplicaciones desarrolladas en Flutter, se puede utilizar un emul
 
 ![Settings2.4](./assets/Identificador%20de%20rostro/validación%20por%20emailasd.png) ![Settings2.5](./assets/Identificador%20de%20rostro/agregando%202asd.png) ![Settings2.1](./assets/Identificador%20de%20rostro/agregadoasd.png)
 
-- **RF18:** El sistema debe permitir al ciudadano visualizar y gestionar los "Términos y condiciones".
+- **RF17:** El sistema debe permitir al ciudadano visualizar y gestionar los "Términos y condiciones".
 
 ![Settings3](./assets/Settings%20terminos%20y%20condicionesasd.png)
 
-- **RF19:** El sistema debe permitir al ciudadano cerrar sesión desde la pantalla de ajustes.
+- **RF18:** El sistema debe permitir al ciudadano cerrar sesión desde la pantalla de ajustes.
 
 ![Settings](./assets/Settingsasd.png)
 
