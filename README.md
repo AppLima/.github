@@ -131,14 +131,14 @@ Para asegurarte de que todo está configurado correctamente:
 ![Diagrama de casos de uso](/assets/Quejas%203.1asd.png)
 ![Diagrama de casos de uso](/assets/Quejas%203.1%20Confirmacionasd.png)
 
-- **RF8:** El sistema debe mostrar al ciudadano el historial de quejas previas enviadas, incluyendo detalles como el asunto y una imagen asociada.
+- **RF8:** El sistema debe mostrar al ciudadano el historial de quejas previas enviadas, incluyendo detalles como una imagen asociada.
 
 ![Diagrama de casos de uso](/assets/Quejas%203.1asd-1.png)
 
 - **RF9:** El sistema debe permitir al administrador revisar una lista de quejas o sugerencias recibidas, clasificadas por tipo de queja.
 
-![Diagrama de casos de uso](/assets/Quejas%203.1asd-1.png)
 ![Diagrama de casos de uso](./assets/Quejas%204_admasd.png)
+![Diagrama de casos de uso](/assets/Quejas%203.1asd-1.png)
 
 - **RF10:** El sistema debe permitir al administrador modificar el estado de las quejas.
 
