@@ -66,30 +66,23 @@ Para probar las aplicaciones desarrolladas en Flutter, se puede utilizar un emul
 ![Diagrama de casos de uso](./assets/registrarseasd.png)
 ![Diagrama de casos de uso](./assets/registrarse%20Confirmaciónasd.png)
 
-- **RF2:** El sistema debe permitir al ciudadano registrar o actualizar su rostro para utilizarlo como método de identificación.
-
-![Diagrama de casos de uso](/assets/Identificador%20de%20rostro/agregadoasd.png)
-![Diagrama de casos de uso](/assets/Identificador%20de%20rostro/agregando%202asd.png)
-![Diagrama de casos de uso](/assets/Identificador%20de%20rostro/validación%20por%20emailasd.png)
-
-
 ### 2. Autenticación de Usuario
-- **RF3:** El sistema debe permitir al usuario iniciar sesión validando el correo y la contraseña proporcionados con los datos de la base de datos.
+- **RF2:** El sistema debe permitir al usuario iniciar sesión validando el correo y la contraseña proporcionados con los datos de la base de datos.
 
 ![Diagrama de casos de uso](/assets/iniciar%20sesionasd.png)
 
-- **RF4:** El sistema debe permitir al usuario iniciar sesión utilizando identificación facial.
+- **RF3:** El sistema debe permitir al usuario iniciar sesión utilizando identificación facial.
 
 ![Diagrama de casos de uso](./assets/Iniciar%20sesion%20-%20Identificadorasd.png)
 ![Diagrama de casos de uso](/assets/Iniciar%20sesion%20-%20Identificador%20Registroasd.png)
 
-- **RF5:** El sistema debe proporcionar una opción de recuperación de contraseña. Al hacer clic en "Olvidé mi contraseña", el usuario debe poder ingresar su correo electrónico para recibir un enlace de restablecimiento de contraseña.
+- **RF4:** El sistema debe proporcionar una opción de recuperación de contraseña. Al hacer clic en "Olvidé mi contraseña", el usuario debe poder ingresar su correo electrónico para recibir un enlace de restablecimiento de contraseña.
 
 ![Diagrama de casos de uso](/assets/olvidaste%20tu%20contraseñaasd.png)
 ![Diagrama de casos de uso](/assets/olvidaste%20tu%20contraseña%20confirmacionasd.png)
 
 ### 3. Acceso al Menú Principal
-- **RF6:** El sistema debe llevar al usuario al **menú principal** después de iniciar sesión, donde podrá acceder a las siguientes opciones:
+- **RF5:** El sistema debe llevar al usuario al **menú principal** después de iniciar sesión, donde podrá acceder a las siguientes opciones:
    - **SOS:** Acceso rápido a servicios de emergencia (en caso sea ciudadano).
    - **Quejas/Sugerencias:** Permite generar y gestionar quejas.
    - **Sondeos:** Acceso a encuestas y votaciones.
@@ -99,20 +92,20 @@ Para probar las aplicaciones desarrolladas en Flutter, se puede utilizar un emul
 ![Diagrama de casos de uso](/assets/Home-adminasd.png)
 
 ### 4. Gestión de Quejas y Sugerencias
-- **RF7:** El sistema debe permitir al ciudadano seleccionar el tipo de queja o sugerencia desde una lista de opciones predefinidas o la opción 'Otros'.
+- **RF6:** El sistema debe permitir al ciudadano seleccionar el tipo de queja o sugerencia desde una lista de opciones predefinidas o la opción 'Otros'.
 
 ![Diagrama de casos de uso](/assets/Quejas%204_usuarioasd.png)
 
-- **RF8:** El sistema debe permitir al ciudadano detallar el problema o sugerencia relacionado con el tipo seleccionado.
+- **RF7:** El sistema debe permitir al ciudadano detallar el problema o sugerencia relacionado con el tipo seleccionado.
 
 ![Diagrama de casos de uso](/assets/Quejas%203.1asd.png)
 ![Diagrama de casos de uso](/assets/Quejas%203.1%20Confirmacionasd.png)
 
-- **RF9:** El sistema debe mostrar al ciudadano el historial de quejas previas enviadas, incluyendo detalles como el asunto y una imagen asociada.
+- **RF8:** El sistema debe mostrar al ciudadano el historial de quejas previas enviadas, incluyendo detalles como el asunto y una imagen asociada.
 
 ![Diagrama de casos de uso](/assets/Quejas%203.1asd-1.png)
 
-- **RF10:** El sistema debe permitir al administrador revisar una lista de quejas o sugerencias recibidas, clasificadas por tipo de queja.
+- **RF9:** El sistema debe permitir al administrador revisar una lista de quejas o sugerencias recibidas, clasificadas por tipo de queja.
 
 ![Diagrama de casos de uso](/assets/Quejas%203.1asd-1.png)
 
@@ -122,20 +115,20 @@ Para probar las aplicaciones desarrolladas en Flutter, se puede utilizar un emul
 ![Diagrama de casos de uso](/assets/Editar%20queja3.1/Adminasd.png)
 ![Sondeos](./assets/Sondeosasd.png)
 
-- **RF13:** El sistema debe permitir al ciudadano votar a favor o en contra de los proyectos mediante botones de "De acuerdo" o "Desacuerdo".
+- **RF12:** El sistema debe permitir al ciudadano votar a favor o en contra de los proyectos mediante botones de "De acuerdo" o "Desacuerdo".
 
 ![Sondeos2](./assets/Sondeos%202asd.png) ![Sondeos3](./assets/Sondeos%20Confirmacionasd.png)
 
-- **RF14:** El sistema debe permitir al administrador crear encuestas ingresando el título y el detalle o descripción del sondeo.
+- **RF13:** El sistema debe permitir al administrador crear encuestas ingresando el título y el detalle o descripción del sondeo.
 
 ![Sondeos4](./assets/Realizar%20sondeo_admasd.png) ![Sondeos5](./assets/crear_sondeo_confirmasd.png)
  
-- **RF15:** El sistema debe permitir al administrador consultar los resultados de las encuestas.
+- **RF14:** El sistema debe permitir al administrador consultar los resultados de las encuestas.
 
 ![Sondeos6](./assets/sondeo_mainasd.png) ![Sondeos7](./assets/sondeo_detalle_adminasd.png)
 
 ### 6. Acceso a Servicios de Emergencia
-- **RF16:** El sistema debe permitir al ciudadano visualizar una lista de servicios de emergencia disponibles, como SAMU, PNP, Bomberos y Central de Serenazgo.
+- **RF15:** El sistema debe permitir al ciudadano visualizar una lista de servicios de emergencia disponibles, como SAMU, PNP, Bomberos y Central de Serenazgo.
 
 ![SOS](./assets/SOSasd.png)
 
@@ -143,11 +136,11 @@ Para probar las aplicaciones desarrolladas en Flutter, se puede utilizar un emul
 
 ![Settings](./assets/Settingsasd.png)
 
-- **RF17:** El sistema debe permitir al ciudadano activar o desactivar las notificaciones push desde la configuración.
+- **RF16:** El sistema debe permitir al ciudadano activar o desactivar las notificaciones push desde la configuración.
 
 ![Settings2](./assets/Settings%20notificacionesasd.png)
 
-- **RF18:** El sistema debe mostrar el nombre del usuario y permitirle agregar o actualizar su rostro para el inicio de sesión con identificación facial.
+- **RF17:** El sistema debe mostrar el nombre del usuario y permitirle agregar o actualizar su rostro para el inicio de sesión con identificación facial.
 
 ![Settings2.1](./assets/Identificador%20de%20rostro/validaciónasd.png)
 
@@ -155,17 +148,17 @@ Para probar las aplicaciones desarrolladas en Flutter, se puede utilizar un emul
 
 ![Settings2.4](./assets/Identificador%20de%20rostro/validación%20por%20emailasd.png) ![Settings2.5](./assets/Identificador%20de%20rostro/agregando%202asd.png) ![Settings2.1](./assets/Identificador%20de%20rostro/agregadoasd.png)
 
-- **RF19:** El sistema debe permitir al ciudadano visualizar y gestionar los "Términos y condiciones".
+- **RF18:** El sistema debe permitir al ciudadano visualizar y gestionar los "Términos y condiciones".
 
 ![Settings3](./assets/Settings%20terminos%20y%20condicionesasd.png)
 
-- **RF20:** El sistema debe permitir al ciudadano cerrar sesión desde la pantalla de ajustes.
+- **RF19:** El sistema debe permitir al ciudadano cerrar sesión desde la pantalla de ajustes.
 
 ![Settings](./assets/Settingsasd.png)
 
 ## Integrantes 👥
--Marcelo Cabrejos Benites (20200333)
--Renzo Tipula Cochachin (20202084)
--Roberto Lopez Jauregui (20201192)
--Arturo Aaron Silvera Pocco (20204965)
--Rafael Calderon (20200349)
+- Marcelo Cabrejos Benites (20200333)
+- Renzo Tipula Cochachin (20202084)
+- Roberto Lopez Jauregui (20201192)
+- Arturo Aaron Silvera Pocco (20204965)
+- Rafael Calderon (20200349)
