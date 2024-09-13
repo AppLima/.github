@@ -63,13 +63,26 @@ Para probar las aplicaciones desarrolladas en Flutter, se puede utilizar un emul
 
 ### 1. Registro de Usuario
 - **RF1:** El sistema debe permitir al ciudadano registrarse proporcionando correo, contraseña, DNI, nombre, apellidos y distrito actual.
+![Diagrama de casos de uso](./assets/registrarseasd.png)
+![Diagrama de casos de uso](./assets/registrarse%20Confirmaciónasd.png)
+
 - **RF2:** El sistema debe permitir al ciudadano registrar o actualizar su rostro para utilizarlo como método de identificación.
+![Diagrama de casos de uso](/assets/Identificador%20de%20rostro/agregadoasd.png)
+![Diagrama de casos de uso](/assets/Identificador%20de%20rostro/agregando%202asd.png)
+![Diagrama de casos de uso](/assets/Identificador%20de%20rostro/validación%20por%20emailasd.png)
+
 
 ### 2. Autenticación de Usuario
 - **RF3:** El sistema debe permitir al usuario iniciar sesión validando el correo y la contraseña proporcionados con los datos de la base de datos.
+![Diagrama de casos de uso](/assets/iniciar%20sesionasd.png)
+
 - **RF4:** El sistema debe permitir al usuario iniciar sesión utilizando identificación facial.
+![Diagrama de casos de uso](./assets/Iniciar%20sesion%20-%20Identificadorasd.png)
+![Diagrama de casos de uso](/assets/Iniciar%20sesion%20-%20Identificador%20Registroasd.png)
+
 - **RF5:** El sistema debe proporcionar una opción de recuperación de contraseña. Al hacer clic en "Olvidé mi contraseña", el usuario debe poder ingresar su correo electrónico para recibir un enlace de restablecimiento de contraseña.  
-   ![Pantalla Olvidé mi Contraseña](./mockups/forgot_password.PNG)
+![Diagrama de casos de uso](/assets/olvidaste%20tu%20contraseñaasd.png)
+![Diagrama de casos de uso](/assets/olvidaste%20tu%20contraseña%20confirmacionasd.png)
 
 ### 3. Acceso al Menú Principal
 - **RF6:** El sistema debe llevar al usuario al **menú principal** después de iniciar sesión, donde podrá acceder a las siguientes opciones:
@@ -77,18 +90,26 @@ Para probar las aplicaciones desarrolladas en Flutter, se puede utilizar un emul
    - **Quejas/Sugerencias:** Permite generar y gestionar quejas.
    - **Sondeos:** Acceso a encuestas y votaciones.
    - **Historial:** Acceso al historial de quejas propio del usuario (en caso sea ciudadano).
-   
-   ![Pantalla Menú Principal](./mockups/main_menu.PNG)
+   ![Diagrama de casos de uso](/assets/Homeasd.png)
+   ![Diagrama de casos de uso](/assets/Home-adminasd.png)
 
 ### 4. Gestión de Quejas y Sugerencias
 - **RF7:** El sistema debe permitir al ciudadano seleccionar el tipo de queja o sugerencia desde una lista de opciones predefinidas o la opción 'Otros'.
-- **RF8:** El sistema debe permitir al ciudadano detallar el problema o sugerencia relacionado con el tipo seleccionado.
-- **RF9:** El sistema debe mostrar al ciudadano el historial de quejas previas enviadas, incluyendo detalles como el asunto y una imagen asociada.
-- **RF10:** El sistema debe permitir al administrador revisar una lista de quejas o sugerencias recibidas, clasificadas por categoría.
-- **RF11:** El sistema debe permitir al administrador modificar el estado de las quejas.
+![Diagrama de casos de uso](/assets/Quejas%204_usuarioasd.png)
 
-### 5. Gestión de Encuestas y Votaciones
-- **RF12:** El sistema debe mostrar al ciudadano una lista de proyectos disponibles para votar, acompañados de imágenes y descripciones.
+- **RF8:** El sistema debe permitir al ciudadano detallar el problema o sugerencia relacionado con el tipo seleccionado.
+![Diagrama de casos de uso](/assets/Quejas%203.1asd.png)
+![Diagrama de casos de uso](/assets/Quejas%203.1%20Confirmacionasd.png)
+
+- **RF9:** El sistema debe mostrar al ciudadano el historial de quejas previas enviadas, incluyendo detalles como el asunto y una imagen asociada.
+![Diagrama de casos de uso](/assets/Quejas%203.1asd-1.png)
+
+- **RF10:** El sistema debe permitir al administrador revisar una lista de quejas o sugerencias recibidas, clasificadas por tipo de queja.
+![Diagrama de casos de uso](/assets/Quejas%203.1asd-1.png)
+
+- **RF11:** El sistema debe permitir al administrador modificar el estado de las quejas.
+![Diagrama de casos de uso](/assets/Editar%20queja3.1/Adminasd.png)
+![Diagrama de casos de uso](/assets/Editar%20queja3.1/Adminasd.png)
 
 ![Sondeos](./assets/Sondeosasd.png)
 
