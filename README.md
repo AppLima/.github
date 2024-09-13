@@ -138,6 +138,7 @@ Para asegurarte de que todo está configurado correctamente:
 - **RF9:** El sistema debe permitir al administrador revisar una lista de quejas o sugerencias recibidas, clasificadas por tipo de queja.
 
 ![Diagrama de casos de uso](/assets/Quejas%203.1asd-1.png)
+![Diagrama de casos de uso](./assets/Quejas%204_admasd.png)
 
 - **RF10:** El sistema debe permitir al administrador modificar el estado de las quejas.
 
